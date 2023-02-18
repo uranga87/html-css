@@ -1,0 +1,18 @@
+
+
+body{
+    background-color: rgb(226, 230, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{ 
+    background-color: black;
+    color: aliceblue;
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+}
+p{
+    text-align: justify;
+}

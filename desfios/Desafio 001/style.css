@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(202, 233, 248);
+ }
+ h1{
+  color: aliceblue;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  
+
+  font-size: 40px;
+ }
+ h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 38px;
+  
+  
+}
+p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+div{
+  padding: 20px;
+  margin: 20px;
+}

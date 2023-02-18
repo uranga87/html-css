@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTMl</title>
+</head>
+<body>
+<picture>
+    <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagen flexivel">
+</picture>
+<h1>Reproduzindo áudios</h1>
+<h2>Vamos aprender a reproduzir áudios em html5</h2>
+
+<source src="midia/Your Love - Yung Logos.mp3" type="audio/mpeg">
+<source src="midia/Your Love - Yung Logos.ogg" type="audio/ogg">
+<source src="midia/Your Love - Yung Logos.wav" type="audio/wav">
+<p> <strong> infelizmente seu navegador não consegue reproduzir áudio </strong> </p>
+<!--para fazer download <a href>-->
+<a href="midia/Your Love - Yung Logos.mp3">baixe o arquivo mp3</a>
+<p>Ou então de play para ouvir a musica</p>
+<audio src="midia/Your Love - Yung Logos.mp3" controls></audio>
+</audio>
+</body>
+</html>
