@@ -12,10 +12,15 @@
             background-position: left top;
             background-repeat: repeat-y;
             background-size:cover;
+            background-attachment: fixed;
+            /* shorthands
+            background-color > image > position > repeat > attachment*/
+            background: skyblue url('imagens/wallpaper002.jpg') left top repeat-y fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 500px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
