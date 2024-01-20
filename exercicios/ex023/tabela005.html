@@ -21,11 +21,39 @@ th,td{
     border: 1px solid black;
     padding: 8px;
 }
+col.cnome{
+    background-color: aqua;
+}
+col.csexo{
+    background-color: blue;
+}
+.amarelo{background-color: yellow;}
+
+.vermelho{
+    background-color: red;
+}
     </style>
 </head>
 <body>
     <h1>Exerciocio de tabela</h1>
     <table>
+        <colgroup>
+        <col class="amarelo">
+        <col class="vermelho">
+        <col class="amarelo">
+        <col  class="vermelho">
+        
+        
+        
+        </colgroup>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo" span="3">
+        <col class="cidade">
+        <col class="cprof">
+        
+        
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
